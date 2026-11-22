@@ -1044,7 +1044,8 @@ section,
 --------------------------------------------------------------*/
 .why-us .why-box {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: var(--brand-navy);
+  border-top: 4px solid var(--brand-gold);
   padding: 30px;
 }
 
@@ -1090,7 +1091,7 @@ section,
   color: var(--accent-color);
   font-size: 32px;
   margin-bottom: 30px;
-  background: color-mix(in srgb, var(--accent-color), transparent 95%);
+  background: color-mix(in srgb, var(--brand-gold), transparent 88%);
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -1166,6 +1167,7 @@ section,
 .courses .course-item {
   background-color: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 3px solid var(--brand-gold);
   border-radius: 5px;
 }
 
@@ -1245,6 +1247,7 @@ section,
 .trainers-index .member {
   background-color: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 3px solid var(--brand-gold);
   text-align: center;
   margin-bottom: 20px;
 }
