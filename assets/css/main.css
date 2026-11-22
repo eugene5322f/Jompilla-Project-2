@@ -21,6 +21,7 @@
 :root { 
   --brand-navy: #142944;
   --brand-gold: #8a6b27;
+  --brand-gold-bright: #d7b85c;
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: var(--brand-navy);
@@ -530,8 +531,13 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
+  --background-color: var(--brand-navy);
+  --default-color: #e9edf2;
+  --heading-color: #ffffff;
+  --surface-color: #203954;
+  --contrast-color: #ffffff;
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: var(--brand-navy);
   font-size: 14px;
   padding-bottom: 50px;
   position: relative;
@@ -555,7 +561,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
   font-family: var(--heading-font);
-  color: var(--heading-color);
+  color: #ffffff;
 }
 
 .footer .footer-about p {
@@ -578,8 +584,8 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var(--brand-gold-bright);
+  border-color: var(--brand-gold-bright);
 }
 
 .footer h4 {
@@ -587,6 +593,7 @@ h6 {
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
+  color: #ffffff;
 }
 
 .footer .footer-links {
@@ -622,7 +629,7 @@ h6 {
 }
 
 .footer .footer-links ul a:hover {
-  color: var(--accent-color);
+  color: var(--brand-gold-bright);
 }
 
 .footer .footer-contact p {
